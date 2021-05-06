@@ -1,3 +1,9 @@
+# Current State
+
+- App fetches everything on startup
+- Intention is to have it periodically refresh (but doesn't at this time)
+  - If scope of app remains small, just have multiple processes with their own copy
+  - If scope grows, use distributed store for instances to share state
 
 # Requirements
 - Python3
